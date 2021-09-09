@@ -42,7 +42,7 @@ components:
 
   - alias: node-frontend-dev
     mountSources: true
-    image: 'quay.io/eclipse/che-nodejs12-community:nightly'
+    image: 'quay.io/eclipse/che-nodejs12-community:7.33.0'
     memoryLimit: 768Mi
     type: dockerimage
     endpoints:
